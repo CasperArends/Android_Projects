@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Example_Level_01</string>
+    <string name="giraffe">Giraffe</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect, the correct answer is Giraffe!</string>
+    <string name="species">Species</string>
+    <string name="textView">What animal is this?</string>
+    <string name="confirm">confirm</string>
+
 </resources>
