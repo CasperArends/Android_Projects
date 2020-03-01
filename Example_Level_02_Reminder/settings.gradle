@@ -1,0 +1,2 @@
+rootProject.name='Example_Level_02_Reminder'
+include ':app'

@@ -1,0 +1,2 @@
+rootProject.name='Level_02_Task1_PlacesOfInterest'
+include ':app'
