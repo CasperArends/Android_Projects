@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/tv_3"
-        android:layout_width="31dp"
-        android:layout_height="21dp"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
         android:text="@string/a_b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -158,32 +158,34 @@
         android:layout_width="76dp"
         android:layout_height="47dp"
         android:layout_marginEnd="28dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
+        android:labelFor="@id/et_3"
         android:text="@string/name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235"
-        android:autofillHints="" tools:targetApi="o" />
+        app:layout_constraintVertical_bias="0.235" />
 
     <EditText
         android:id="@+id/et_2"
         android:layout_width="76dp"
         android:layout_height="47dp"
         android:layout_marginEnd="28dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
+        android:labelFor="@id/et_2"
         android:text="@string/name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.33"
-        android:autofillHints="" tools:targetApi="o" />
+        app:layout_constraintVertical_bias="0.33" />
 
     <EditText
         android:id="@+id/et_3"
@@ -199,23 +201,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.426"
-        android:autofillHints="" tools:targetApi="o" />
-
-    <EditText
-        android:id="@+id/et_4"
-        android:layout_width="76dp"
-        android:layout_height="47dp"
-        android:layout_marginEnd="28dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52"
-        android:autofillHints="" tools:targetApi="o" />
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btn_Enter"
@@ -228,5 +214,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.945" />
+
+    <EditText
+        android:id="@+id/et_4"
+        android:layout_width="76dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="28dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
