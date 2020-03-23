@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Level_03_Task1_UserProfile</string>
+    <string name="user_profile">User Profile</string>
+    <string name="profile_title">This is your profile</string>
+    <string name="name">%1$s %2$s</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last Name</string>
+    <string name="description">Description</string>
+    <string name="btn_open_gallery">Open Galery</string>
+    <string name="btn_confirm">Confirm!</string>
+</resources>
+
+
