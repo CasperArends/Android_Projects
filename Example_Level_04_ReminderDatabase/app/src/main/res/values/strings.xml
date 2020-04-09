@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Example_Level_03_Reminder_App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="give_reminder">Add a reminder!</string>
+    <string name="title_activity_add">AddActivity</string>
+</resources>
