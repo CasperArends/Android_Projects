@@ -1,4 +1,4 @@
-package com.example.example_level_02_reminder
+package com.example.shoppinglist
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo
@@ -7,14 +7,17 @@ import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-@Entity(tableName = "reminderTable")
-data class Reminder(
-
-    @ColumnInfo(name = "reminder")
-    var reminderText: String,
+@Entity(tableName = "productTable")
+class Product (
 
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
-    var id: Long? = null
+    var id: Long? = null,
 
-): Parcelable
+    @ColumnInfo(name = "name")
+    var name: String,
+
+    @ColumnInfo(name = "quantity")
+    var quantity: Int
+
+):Parcelable

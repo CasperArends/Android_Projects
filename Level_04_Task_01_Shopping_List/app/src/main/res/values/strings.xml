@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="title_activity_add">AddActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="give_shoppingItem">Shopping Item</string>
+    <string name="delete_shopping_list">Delete Shopping List</string>
+</resources>
